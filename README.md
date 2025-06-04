@@ -11,4 +11,4 @@ We have been stuck in using neural network models to achieve radar target recogn
 
 I want to thank my grandpa, mother, father, aunt, for the impeccable care you gave to my grandmother on her deathbed and for making me feel the most precious affection on earth. I want to thank my friends who cared for my family during this time, and my mentors for nurturing and trusting me with the ability to accomplish this work. Additionally, thanks to my love Miss Xu, it is our commitment that makes this work possible.
 
-I'll do my best to pursue scientific research till death, but such a work will probably only come this once in my life. I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
+I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
