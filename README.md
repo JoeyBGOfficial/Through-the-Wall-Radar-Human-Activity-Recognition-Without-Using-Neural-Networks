@@ -37,4 +37,4 @@ The proposed method first extracts the baseband signal of TWR echo by pulse comp
 
 Fig. 2. TWR human echo model and data processing.
 
-### B. Codes Explanation (Folder: ) ###
+### B. Codes Explanation (Folder: Image_Based_Data_Processing) ###
