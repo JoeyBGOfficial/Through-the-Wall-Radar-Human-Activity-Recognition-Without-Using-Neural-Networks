@@ -27,6 +27,10 @@ Fig. 1. Current works in this field take neural network-based methods as the res
 
 [1]
 
+**Caution!**
+
+After downloading the entire repository, first unzip "Image_Templates.rar" and "Pointcloud_Templates.rar". Put your own dataset in the unzipped folder according to the subfolder name. Next, feel free to use the code!
+
 ## II. TWR HUMAN ECHO MODEL ##
 
 ### A. Theory in Simple ###
