@@ -26,3 +26,15 @@ Fig. 1. Current works in this field take neural network-based methods as the res
 **Corresponding Papers:**
 
 [1]
+
+## II. TWR HUMAN ECHO MODEL ##
+
+### A. Theory in Simple ###
+
+The proposed method first extracts the baseband signal of TWR echo by pulse compression, and then concatenates it along the slow time dimension, and the resulting image is a range-time map (RTM). The Doppler-time map (DTM) is obtained by summing all range bins of the RTM and doing the short time fourier transform (STFT) along the slow time dimension. The target image after clutter and noise suppression is obtained by doing Moving Target Indication Filtering (MTI) and Empirical Modal Decomposition (EMD) on both RTM and DTM, respectively.
+
+![Uploading TWR_Echo_Model.jpg…]()
+
+Fig. 2. TWR human echo model and data processing.
+
+### B. Codes Explanation (Folder: ) ###
