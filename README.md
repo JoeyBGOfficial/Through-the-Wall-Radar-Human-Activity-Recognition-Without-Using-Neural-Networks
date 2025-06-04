@@ -12,3 +12,5 @@ We have been stuck in using neural network models to achieve radar target recogn
 I want to thank my grandpa, mother, father, aunt, for the impeccable care you gave to my grandmother on her deathbed and for making me feel the most precious affection on earth. I want to thank my friends who cared for my family during this time, and my mentors for nurturing and trusting me with the ability to accomplish this work. Additionally, thanks to my love Miss Xu, it is our commitment that makes this work possible.
 
 I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
+
+**Basic Information:** This repository is the open source code for my latest work: "Through-the-Wall Radar Human Activity Recognition WITHOUT Using Neural Networks", submitted to arXiv.
