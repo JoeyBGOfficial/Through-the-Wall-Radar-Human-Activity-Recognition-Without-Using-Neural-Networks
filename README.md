@@ -13,6 +13,10 @@ I want to thank my grandpa, mother, father, aunt, for the impeccable care you ga
 
 I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
 
+![Introduction](https://github.com/user-attachments/assets/1fdef49f-98f2-4b03-ac26-fef91f58b39c)
+
+Fig. 1. Current works in this field take neural network-based methods as the research hotspot. This work returns to rethink the value of traditional mindsets.
+
 **Basic Information:** This repository is the open source code for my latest work: "Through-the-Wall Radar Human Activity Recognition WITHOUT Using Neural Networks", submitted to arXiv.
 
 **Email:** JoeyBG@126.com;
