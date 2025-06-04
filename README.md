@@ -1,5 +1,5 @@
 # Through-the-Wall-Radar-Human-Activity-Recognition-Without-Using-Neural-Networks
-## I. Introduction
+## I. Introduction ##
 
 **Write Sth. Upfront:** 
 
@@ -9,6 +9,6 @@ This is probably the only paper in my life that was written in a hospital the en
 
 We have been stuck in using neural network models to achieve radar target recognition for so many years. I just want to be back to the 90s and 00s, when people could also achieve complex tasks with a certain level of intelligence with perfect physical interpretability using traditional and recent signal processing techniques. It was this vision that inspired me and this work was born.
 
-I want to thank my grandpa, mother, father, aunt, for the impeccable care you gave to my grandmother on her deathbed and for making me feel the most precious affection on earth. I want to thank my friends who cared for my family during this time, and my mentors for nurturing and trusting me with the ability to accomplish this work. 
+I want to thank my grandpa, mother, father, aunt, for the impeccable care you gave to my grandmother on her deathbed and for making me feel the most precious affection on earth. I want to thank my friends who cared for my family during this time, and my mentors for nurturing and trusting me with the ability to accomplish this work. Additionally, thanks to my love Miss Xu, it is our commitment that makes this work possible.
 
 I'll do my best to pursue scientific research till death, but such a work will probably only come this once in my life. I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
