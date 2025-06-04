@@ -14,3 +14,11 @@ I want to thank my grandpa, mother, father, aunt, for the impeccable care you ga
 I truly hope everyone can find something in my journey. It is the power of love that penetrates all difficulties.
 
 **Basic Information:** This repository is the open source code for my latest work: "Through-the-Wall Radar Human Activity Recognition WITHOUT Using Neural Networks", submitted to arXiv.
+
+**Email:** JoeyBG@126.com;
+
+**Abstract:** After a few years of research in the field of through-the-wall radar (TWR) human activity recognition (HAR), I found that we seem to be stuck in the mindset of training on radar image data through neural network models. The earliest related works in this field based on template matching did not require a training process, and I believe they have never died. Because these methods possess a strong physical interpretability and are closer to the basis of theoretical signal processing research. In this paper, I would like to try to return to the original path by attempting to eschew neural networks to achieve the TWR HAR task and challenge to achieve intelligent recognition as neural network models. In detail, the range-time map and Doppler-time map of TWR are first generated. Then, the initial regions of the human target foreground and noise background on the maps are determined using corner detection method, and the micro-Doppler signature is segmented using the multiphase active contour model. The micro-Doppler segmentation feature is discretized into a two-dimensional point cloud. Finally, the topological similarity between the resulting point cloud and the point clouds of the template data is calculated using Mapper algorithm to obtain the recognition results. The effectiveness of the proposed method is demonstrated by numerical simulated and measured experiments.
+
+**Corresponding Papers:**
+
+[1]
