@@ -114,6 +114,6 @@ This function computes the curvature of a 2D matrix `f` using different finite d
 
 **Output:** 2D matrix `K` representing the approximated curvature of `f`.
 
-### C. Dataset Explanation (Folder: None) ###
+### C. Datafiles Explanation (Folder: None) ###
 
 None.
