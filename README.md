@@ -53,3 +53,10 @@ This function implements static clutter cancellation on RTM.
 
 **Output:** 2D matrix representing the MTI filtered image.
 
+#### 2. DTM_Generator  ####
+
+This function implements DTM generation using STFT method implemented in MATLAB.
+
+**Input:** 2D matrix representing the RTM; Sampling frequency; Window function; Number of overlapping samples between windows; Number of FFT points.
+
+**Output:** 2D matrix representing the DTM, with rows as Doppler frequencies and columns as time segments.
