@@ -261,6 +261,7 @@ This function computes the 2-Wasserstein distance between two 2D point clouds us
 
 None.
 
+
 ## V. Main Branch & Visualization ##
 
 ### A. Theory in Simple ###
@@ -330,4 +331,16 @@ This script visualizes the feature extraction and recognition results for 12 act
 **Input:** None, also use predefined paths.
 
 **Output:** Visualized images saved to specified directories.
+
+
+### C. Datafiles Explanation (Folder: Root, Visualizations) ###
+
+#### 1. JoeyBG_CList.mat ####
+
+My favorite colormap file used for generating figures in the paper.
+
+#### 2. Class_Names.mat ####
+
+Name strings of $12$ predefined classes of activities.
+
 
