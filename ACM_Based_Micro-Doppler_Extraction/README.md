@@ -10,7 +10,6 @@ Fig. 3. Schematic diagram of the proposed ACM-based micro-Doppler signature extr
 
 ### B. Codes Explanation (Folder: ACM_Based_Micro-Doppler_Extraction) ###
 
-
 #### 1. backward_gradient ####
 
 This function computes the backward differences of a 2D matrix `f`, approximating partial derivatives along rows and columns.
@@ -107,10 +106,14 @@ This function computes constants `C` that best fit an image `U` across four regi
 **Output:** Vector `C` regional constants, intermediate factors `mult` in 4D matrix.
 
 
-#### 11. CURVATURE_CV  ####
+#### 11. CURVATURE_CV ####
 
-This function computes the curvature of a 2D matrix f using different finite difference schemes specified by the input diff_scheme.
+This function computes the curvature of a 2D matrix `f` using different finite difference schemes specified by `diff_scheme`.
 
-**Input:** 2D matrix representing the level set function or image; Integer (0, 1, or 2) selecting the difference scheme to use.
+**Input:** 2D matrix `f` of level set function or image, Integer `diff_scheme` (0, 1, or 2) selecting the difference scheme.
 
-**Output:** 2D matrix representing the approximated curvature of the input function.
+**Output:** 2D matrix `K` representing the approximated curvature of `f`.
+
+### C. Dataset Explanation (Folder: None) ###
+
+None.
