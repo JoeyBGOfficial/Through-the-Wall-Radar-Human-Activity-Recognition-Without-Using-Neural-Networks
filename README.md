@@ -57,6 +57,14 @@ This function implements static clutter cancellation on RTM.
 
 This function implements DTM generation using STFT method implemented in MATLAB.
 
-**Input:** 2D matrix representing the RTM; Sampling frequency; Window function; Number of overlapping samples between windows; Number of FFT points.
+**Input:** 2D matrix representing the RTM; Sampling frequency; Window function; Number of overlapping samples between windows; Number of Fast Fourier Transform (FFT) points.
 
 **Output:** 2D matrix representing the DTM, with rows as Doppler frequencies and columns as time segments.
+
+#### 3. EMD ####
+
+This function denoises radar RTM using Empirical Mode Decomposition (EMD). 
+
+**Input:** 2D matrix representing the RTM; Number of initial intrinsic mode functions (IMFs) to discard as noise.
+
+**Output:** 2D matrix representing the denoised RTM.
