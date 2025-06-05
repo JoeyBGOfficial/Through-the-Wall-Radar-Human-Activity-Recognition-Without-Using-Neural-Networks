@@ -44,3 +44,12 @@ The proposed method first extracts the baseband signal of TWR echo by pulse comp
 Fig. 2. TWR human echo model and data processing.
 
 ### B. Codes Explanation (Folder: Image_Based_Data_Processing) ###
+
+#### 1. MTI  ####
+
+This function implements static clutter cancellation on RTM.
+
+**Input:** 2D matrix representing the RTM, with rows as range and columns as time.
+
+**Output:** 2D matrix representing the MTI filtered image.
+
