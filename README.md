@@ -288,7 +288,7 @@ This function deals with simulated RTM data, using a four-phase level set method
 
 #### 2. Feature_Extraction_SimHDTM ####
 
-This function processes simulated Doppler-time map (DTM) data, employing a four-phase level set method for image segmentation and generating a sparse point cloud from the extracted contour features.
+This function processes simulated DTM data, employing a four-phase level set method for image segmentation and generating a sparse point cloud from the extracted contour features.
 
 **Input:** Path to the image data.
 
