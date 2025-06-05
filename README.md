@@ -261,12 +261,18 @@ This function computes the 2-Wasserstein distance between two 2D point clouds us
 
 None.
 
-
 ## V. Main Branch & Visualization ##
 
 ### A. Theory in Simple ###
 For simulated RTM, simulated DTM, measured RTM, and measured DTM, we wrote different function scripts for the whole process of feature extraction and recognition. Main.m is used to achieve the inference prediction. The generation code of the template point cloud library and the code used to give all the visualized images in the paper are also open-sourced together.
 
+![Simulated_Visualization](https://github.com/user-attachments/assets/38567527-71c4-42eb-8d46-34d9a8be968b)
+
+Fig. 5. Simulated visualization results of the proposed method.
+
+![Measured_Visualization](https://github.com/user-attachments/assets/d5a8d2b3-b9d6-4d47-9fb7-cea343d9052d)
+
+Fig. 6. Measured visualization results of the proposed method.
 
 ### B. Codes Explanation (Folder: Root) ###
 
@@ -343,4 +349,6 @@ My favorite colormap file used for generating figures in the paper.
 
 Name strings of $12$ predefined classes of activities.
 
+### 3. Visualization Sub-Figures ####
 
+High-resolution coordinate-free files for each subplot of the visualization experiments in the paper can be found in the Visualizations folder.
