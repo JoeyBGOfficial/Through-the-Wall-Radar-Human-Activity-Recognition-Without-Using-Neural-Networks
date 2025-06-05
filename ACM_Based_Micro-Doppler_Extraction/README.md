@@ -10,10 +10,28 @@ Fig. 3. Schematic diagram of the proposed ACM-based micro-Doppler signature extr
 
 ### B. Codes Explanation (Folder: ACM_Based_Micro-Doppler_Extraction) ###
 
-#### 1. MTI  ####
+#### 1. CURVATURE_CV  ####
 
-This function implements static clutter cancellation on RTM.
+This function computes the curvature of a 2D matrix f using different finite difference schemes specified by the input diff_scheme.
 
-**Input:** 2D matrix representing the RTM, with rows as range and columns as time.
+**Input:** 2D matrix representing the level set function or image; Integer (0, 1, or 2) selecting the difference scheme to use.
 
-**Output:** 2D matrix representing the MTI filtered image.
+**Output:** 2D matrix representing the approximated curvature of the input function.
+
+#### 2. Corner_Representation  ####
+
+This function detects Scale-Invariant Feature Transform (SIFT) corner points in a grayscale image, computes the centroid of these points, and identifies the pixels farthest and nearest to this centroid.
+
+**Input:** 2D matrix representing the grayscale image.
+
+**Output:** Farest pixel; Nearest pixel.
+
+#### 3. Delta  ####
+
+This function computes an approximation to the Dirac delta function.
+
+**Input:** 2D matrix representing the level set function; Scalar value determining the width of the delta function approximation.
+
+**Output:** 2D matrix approximating the Dirac delta function applied to phi.
+
+
