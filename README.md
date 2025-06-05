@@ -68,3 +68,7 @@ This function denoises radar RTM using Empirical Mode Decomposition (EMD).
 **Input:** 2D matrix representing the RTM; Number of initial intrinsic mode functions (IMFs) to discard as noise.
 
 **Output:** 2D matrix representing the denoised RTM.
+
+### C. Datafiles Explanation (Folder: Example_Datas) ###
+
+Here includes four images as examples: one simulated RTM, one simulated DTM, one measured RTM, and one measured DTM.
