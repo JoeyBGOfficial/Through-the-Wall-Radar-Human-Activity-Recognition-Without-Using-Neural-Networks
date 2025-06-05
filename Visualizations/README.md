@@ -86,6 +86,6 @@ My favorite colormap file used for generating figures in the paper.
 
 Name strings of $12$ predefined classes of activities.
 
-### 3. Visualization Sub-Figures ####
+#### 3. Visualization Sub-Figures ####
 
 High-resolution coordinate-free files for each subplot of the visualization experiments in the paper can be found in the Visualizations folder.
