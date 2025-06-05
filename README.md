@@ -43,31 +43,38 @@ The proposed method first extracts the baseband signal of TWR echo by pulse comp
 
 Fig. 2. TWR human echo model and data processing.
 
+
 ### B. Codes Explanation (Folder: Image_Based_Data_Processing) ###
 
-#### 1. MTI  ####
 
-This function implements static clutter cancellation on RTM.
+#### 1. EMD ####
 
-**Input:** 2D matrix representing the RTM, with rows as range and columns as time.
+This function denoises a radar RTM using EMD by discarding initial intrinsic mode functions (IMFs).
 
-**Output:** 2D matrix representing the MTI filtered image.
+**Input:** 2D matrix `RTM`; Integer `num_discard` denotes the number of IMFs to discard.
 
-#### 2. DTM_Generator  ####
+**Output:** 2D matrix `denoised_RTM`.
 
-This function implements DTM generation using STFT method implemented in MATLAB.
 
-**Input:** 2D matrix representing the RTM; Sampling frequency; Window function; Number of overlapping samples between windows; Number of Fast Fourier Transform (FFT) points.
 
-**Output:** 2D matrix representing the DTM, with rows as Doppler frequencies and columns as time segments.
+#### 2. MTI ####
 
-#### 3. EMD ####
+This function applies a simple MTI filter to a RTM by subtracting adjacent columns.
 
-This function denoises radar RTM using Empirical Mode Decomposition (EMD). 
+**Input:** 2D matrix `I`, here we usually use RTM for MTI processing.
 
-**Input:** 2D matrix representing the RTM; Number of initial intrinsic mode functions (IMFs) to discard as noise.
+**Output:** 2D matrix `filtered_I`.
 
-**Output:** 2D matrix representing the denoised RTM.
+
+
+#### 3. DTM_Generator ####
+
+This function transforms a radar RTM into a DTM using the Short-Time Fourier Transform (STFT).
+
+**Input:** 2D matrix `I`, RTM is used here; Optional parameters: `fs` for sampling frequency, `window` for window function, `noverlap` for overlap between windows, `nfft` for FFT points.
+
+**Output:** 2D matrix `DTM`.
+
 
 ### C. Datafiles Explanation (Folder: Example_Datas) ###
 
