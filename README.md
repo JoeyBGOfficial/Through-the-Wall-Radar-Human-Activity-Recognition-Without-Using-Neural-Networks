@@ -29,7 +29,7 @@ Fig. 1. Current works in this field take neural network-based methods as the res
 
 **Corresponding Papers:**
 
-[1]
+[1] JoeyBG, “Through-the-Wall Radar Human Activity Recognition WITHOUT Using Neural Networks,” arXiv (Cornell University), June. 2025.
 
 ### Important!!! ###
 
