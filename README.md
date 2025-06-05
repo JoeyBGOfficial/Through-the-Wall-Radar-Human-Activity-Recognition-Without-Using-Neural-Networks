@@ -361,6 +361,6 @@ High-resolution coordinate-free files for each subplot of the visualization expe
 
 **(3) Algorithm Design Issues:** If you feel that the proposed method has a lot of room for improvement in terms of feature extraction robustness, inference accuracy, and computational speed. My suggestion is: Optimize the diffusion strategy of the level set of ACM steps for radar images, and replace the Mapper algorithm as a more reasonable strategy for measuring the topological similarity of point clouds.
 
-**(4) Right Issues: ⭐The project is limited to learning purposes only. Part of the ACM code is from Chunming Li's open source repository, contour code is borrowed from the MATLAB embedded functions, and the other content is my own original. Any use or interpretation without authorized by us is not allowed!⭐**
+**(4) Right Issues: ⭐The project is limited to learning purposes only. Part of the ACM code is from Chunming Li's open source repository, contour code is borrowed from the MATLAB embedded functions, and the other content is my own original. Any use or interpretation without authorized by me is not allowed!⭐**
 
 Last but not least, hope that my work will bring positive contributions to the open source community in the filed of radar signal processing.
