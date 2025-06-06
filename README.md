@@ -1,4 +1,4 @@
-# Through-the-Wall-Radar-Human-Activity-Recognition-Without-Using-Neural-Networks
+# Through-the-Wall Radar Human Activity Recognition WITHOUT Using Neural Networks
 ## I. Introduction ##
 
 ### Write Sth. Upfront: ###
